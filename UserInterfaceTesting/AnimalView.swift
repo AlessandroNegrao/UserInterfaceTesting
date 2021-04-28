@@ -29,6 +29,8 @@ struct AnimalView: View {
                 Rectangle()
                     .foregroundColor(colorButton)
             }
+            .cornerRadius(10)
+            .frame(height: 60)
             .accessibility(identifier: "colorButton")
             .accessibility(value: Text("\(colorButton.description)"))
             
