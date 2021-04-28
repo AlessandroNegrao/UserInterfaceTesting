@@ -25,10 +25,12 @@ class AnimalViewUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    
+    func testInicialStateOfImage() throws {
+        //Check that image is Suindara
+        XCTAssertEqual(app.images["animalImage"].label, "suindara", "It's not a Suindara")
+    }
     
     func testButtonActionChangedColorButtonAndAnimalImage() throws {
-    
         
         //Check that image is Suindara
 
