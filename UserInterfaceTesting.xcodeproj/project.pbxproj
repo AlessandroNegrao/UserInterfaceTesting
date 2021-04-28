@@ -11,7 +11,7 @@
 		D64AB725263919300036B2C0 /* AnimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64AB724263919300036B2C0 /* AnimalView.swift */; };
 		D64AB727263919320036B2C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64AB726263919320036B2C0 /* Assets.xcassets */; };
 		D64AB72A263919320036B2C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64AB729263919320036B2C0 /* Preview Assets.xcassets */; };
-		D64AB739263919550036B2C0 /* UserInterfaceTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64AB738263919550036B2C0 /* UserInterfaceTestingUITests.swift */; };
+		D64AB739263919550036B2C0 /* AnimalViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64AB738263919550036B2C0 /* AnimalViewUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +32,7 @@
 		D64AB729263919320036B2C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D64AB72B263919320036B2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D64AB736263919550036B2C0 /* UserInterfaceTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserInterfaceTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D64AB738263919550036B2C0 /* UserInterfaceTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInterfaceTestingUITests.swift; sourceTree = "<group>"; };
+		D64AB738263919550036B2C0 /* AnimalViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalViewUITests.swift; sourceTree = "<group>"; };
 		D64AB73A263919550036B2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +95,7 @@
 		D64AB737263919550036B2C0 /* UserInterfaceTestingUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D64AB738263919550036B2C0 /* UserInterfaceTestingUITests.swift */,
+				D64AB738263919550036B2C0 /* AnimalViewUITests.swift */,
 				D64AB73A263919550036B2C0 /* Info.plist */,
 			);
 			path = UserInterfaceTestingUITests;
@@ -209,7 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D64AB739263919550036B2C0 /* UserInterfaceTestingUITests.swift in Sources */,
+				D64AB739263919550036B2C0 /* AnimalViewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

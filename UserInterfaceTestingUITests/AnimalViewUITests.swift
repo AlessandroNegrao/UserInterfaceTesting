@@ -6,8 +6,9 @@
 //
 
 import XCTest
+import SwiftUI
 
-class UserInterfaceTestingUITests: XCTestCase {
+class AnimalViewUITests: XCTestCase {
     //XCUIApplication
     let app = XCUIApplication()
     
@@ -23,8 +24,11 @@ class UserInterfaceTestingUITests: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
+
+    
     
     func testButtonActionChangedColorButtonAndAnimalImage() throws {
+    
         
         //Check that image is Suindara
 
@@ -41,6 +45,7 @@ class UserInterfaceTestingUITests: XCTestCase {
         //Check the label matches the colour we expect
             
         //Check that logo is still piramboia
+        
     }
     
     func testExample() throws {
