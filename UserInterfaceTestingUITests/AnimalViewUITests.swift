@@ -30,6 +30,9 @@ class AnimalViewUITests: XCTestCase {
         XCTAssertEqual(app.images["animalImage"].label, "suindara", "It's not a Suindara")
     }
     
+    //Image identifier: "animalImage"
+    //Button identifier: "colorButton"
+    
     func testButtonActionChangedColorButtonAndAnimalImage() throws {
         
         //Check that image is Suindara
